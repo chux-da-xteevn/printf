@@ -4,6 +4,12 @@
 
 #include <stdarg.h>
 
+/**
+ * struct format_specifiers - Struct to represent format specifiers
+ * @specifier: The format specifier character
+ * @func: The function associated with the specifier
+ */
+
 typedef struct format_specifiers
 {
 	char specifier;
